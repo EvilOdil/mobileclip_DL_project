@@ -1,3 +1,11 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# data folder
+data/
+
+# images folder
+img/
+
+checkpoints/
