@@ -1,6 +1,9 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+# Ignore all PyTorch checkpoint files
+*.pt
+*.pth
 
 # data folder
 data/
