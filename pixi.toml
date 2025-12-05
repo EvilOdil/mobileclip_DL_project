@@ -1,0 +1,14 @@
+[workspace]
+authors = ["W.A. Odil Janandith <odiljanandith@gmail.com>"]
+channels = ["conda-forge"]
+name = "DL_project"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+
+[pypi-dependencies]
+mobileclip = { path = 'C:\Users\LENOVO\OneDrive\Documents\DL_project\mobileclip', editable = true }
